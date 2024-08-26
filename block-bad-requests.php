@@ -1,10 +1,11 @@
 <?php
-/*
-Plugin Name: Block Bad Requests
-Description: Filter specific URL strings from the output buffer.
-Version: 1.0
-Author: Your Name
-*/
+/**
+ * Plugin Name: Block Bad HTTP Request
+ * Description: Blocks suspicious HTTP requests in order to speed up site loading or patch security loopholes temporarily.
+ * Version: 1.0.1
+ * Author: Joshua L. Garza
+ * Author URI: https://wwww.joshualeegarza.com
+ */
 
 // Hook into the admin menu to add a settings page
 add_action('admin_menu', 'bbr_add_admin_menu');
