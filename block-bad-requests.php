@@ -4,7 +4,7 @@
  * Description: Blocks suspicious HTTP requests in order to speed up site loading or patch security loopholes temporarily.
  * Version: 1.0.1
  * Author: Joshua L. Garza
- * Author URI: https://wwww.joshualeegarza.com
+ * Author URI: https://www.joshualeegarza.com
  */
 
 // Hook into the admin menu to add a settings page
